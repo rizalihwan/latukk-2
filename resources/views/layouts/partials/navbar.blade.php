@@ -77,11 +77,11 @@
     function logout()
     {
         Swal.fire({
-            title: 'Message Information!',
-            text: 'Are you sure you want to exit the application?',
+            title: 'Informasi Pesan!',
+            text: 'Apa anda yakin ingin keluar dari Aplikasi?',
             icon: 'question',
             showCancelButton: true,
-            confirmButtonText: 'Yes, Logout!'
+            confirmButtonText: 'Ya, Keluar!'
             }).then((result) => {
                 if (result.isConfirmed) {
                     Swal.fire({

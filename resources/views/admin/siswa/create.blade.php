@@ -9,7 +9,7 @@
         <div class="card-header py-3 d-flex justify-content-between">
             <a href="{{ route('admin.siswa.index') }}" class="btn btn-danger"><i class="fa fa-arrow-left"></i></a>
             <h5>
-                Tambah Siswa Baru
+                <u>Tambah Siswa Baru</u>
             </h5>
         </div>
         <div class="card-body">
